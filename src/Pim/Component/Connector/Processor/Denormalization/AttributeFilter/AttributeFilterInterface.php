@@ -11,6 +11,8 @@ namespace Pim\Component\Connector\Processor\Denormalization\AttributeFilter;
 interface AttributeFilterInterface
 {
     /**
+     * Filters imported data, to keep only those corresponding to "authorized" attributes.
+     *
      * @param array $item
      *
      * @return array
